@@ -1,0 +1,444 @@
+.header-nav {
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #174489, #CB6CE6);
+    flex-wrap: wrap;
+}
+
+.header-logo img {
+    width: 35px;
+}
+
+.header-logo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header-link ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.header-link ul li {
+    list-style-type: none;
+}
+
+.header-link ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.me-auto {
+    color: black;
+    font-weight: 500;
+}
+
+.nav-action button {
+    border-radius: 30px;
+    background-color: #174489;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(to top right, #174589ab, #cc6ce67c);
+  }
+  
+  .hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+  .hero-content p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #ff9800;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+
+  .hero-content button:hover {
+    background-color: #916b31;
+  }
+
+  .terms-section {
+    padding: 30px;
+  }
+  .terms-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    text-align: center;
+    height: 90%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .terms-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+  
+  .terms-card img {
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .terms-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .terms-card h1 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .terms-card p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  .about-container {
+    background-image: url('../assets/images/rectangle11.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 80vh;
+    padding: 0 1rem;
+}
+
+.logo-container {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.text-container {
+    background: white;
+    color: black;
+    padding: 25px;
+    max-width: 500px;
+    width: 90%;
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+}
+
+.how-to-order h5 {
+    color: #174489;
+    font-weight: bold;
+  }
+  
+  .how-to-order h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 5px;
+  }
+  
+  .card-body h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #CB6CE6;
+  }
+  
+  .card-body h4 {
+    color: #CB6CE6;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .card-body p {
+    color: #555;
+  }
+  
+  .cta-background-image {
+    height: 200px;
+  }
+
+  .card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.layanan {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .layanan h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .layanan-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grid responsif */
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .layanan-card {
+    position: relative;
+    height: 220px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .layanan-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .layanan-card .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 34, 102, 0.8);
+    top: 0;
+    left: 0;
+  }
+  
+  .layanan-card h3,
+  .layanan-card p,
+  .layanan-card button {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .layanan-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .layanan-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .layanan-card button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .layanan-card button:hover {
+    background: white;
+    color: #002266;
+  }
+  
+  .tips-section {
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  
+  .tips-section h2 {
+    font-size: 24px;
+  }
+  
+  .card-img-top {
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Optional CSS for hover effect */
+  .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+
+  .keuntungan-section {
+    position: relative;
+    width: 100%;
+    height: 340px;
+    background: url('../assets/images/keuntungan.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .keuntungan-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .keuntungan-content h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    max-width: 800px;
+  }
+
+  /* Styling untuk garis bawah */
+.underline {
+    width: 50px;
+    height: 3px;
+    background-color: #1f3a93;
+    margin: 5px auto 15px auto;
+  }
+  
+  .btn-warning {
+    background-color: yellow;
+    color: black;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  .btn-warning:hover {
+    background-color: #f1c40f;
+  }
+
+  .footer {
+    background-color: #0A3878;
+  }
+  
+  .footer h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFD700;
+  }
+  
+  .footer p {
+    font-size: 14px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .copyright a {
+    color: #FFD700;
+    text-decoration: none;
+  }
+  
+  .footer-nav h4, .footer-contact h4 {
+    font-size: 18px;
+  }
+  
+  .footer-nav ul li a, .footer-contact p {
+    font-size: 14px;
+  }
+  
+  .footer-payment img {
+    height: 30px;
+  }
+  
+  
+  
+  @media (min-width: 576px) {
+    .keuntungan-content h2 {
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .keuntungan-content h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .keuntungan-content h2 {
+      font-size: 2.5rem;
+    }
+  }
+  
