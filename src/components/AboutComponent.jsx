@@ -8,15 +8,14 @@ const AboutComponent = () => {
       <div className="logo-container">
         <img src={logoImage} alt="Logo" className="logo" />
       </div>
-
-      <div className="text-container text-center">
-        <h1 className="display-4">About Us</h1>
-        <h2 className="lead">Solusi Tukang</h2>
-        <h2 className="lead">Terbaik untuk Anda</h2>
-        <p className="mb-4">
+      <div className="text-container text-left about-text">
+        <p className="tittle">About Us</p>
+        <h1>Solusi Tukang</h1>
+        <h1>Terbaik untuk Anda</h1>
+        <p className="mb-4 about-desc">
           TukanginAja merupakan sebuah platform berbasis website sebagai layanan pemesanan jasa tukang yang sesuai dengan kebutuhan konsumen berdasarkan permasalahan bangunan.
         </p>
-        <a href="/contact" className="btn btn-primary btn-lg">Hubungi Kami</a>
+        <a href="/contact" className="about-href">Hubungi Kami</a>
       </div>
     </div>
   );
