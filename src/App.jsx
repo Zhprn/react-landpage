@@ -27,7 +27,6 @@ function App() {
         <FooterComponent />
   </main>
   )
-
 }
 
 export default App

@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/main.css';
 import { motion } from "framer-motion";
-
+import cat from "../assets/images/cat.png";
 
 const ServiceComponent = () => {
   return (
@@ -12,9 +12,9 @@ const ServiceComponent = () => {
       whileInView={{ opacity:1, scale:1}}
       transition={{ duration: 0.6 }}
       className="layanan-container">
-        {/* Layanan Card 1 */}
-        <div className="layanan-card">
+        <div className="layanan-card">          
           <div className="overlay"></div>
+          <img src={cat} alt="image" className="img-fluid" />
           <h3>Cat</h3>
           <p>Perbaikan apa yang ingin kamu lakukan untuk Cat kamu?</p>
           <button className="btn btn-outline-light">Selengkapnya</button>
